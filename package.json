@@ -1,0 +1,22 @@
+{
+  "name": "ayo.run",
+  "version": "1.0.0",
+  "description": "Home to self-hosted alternatives for popular services",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "simple-server .",
+    "dev": "simple-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.ayo.run/ayo/ayo.run"
+  },
+  "author": "Ayo Ayco",
+  "license": "MIT",
+  "devDependencies": {
+    "simple-server": "^1.1.1"
+  }
+}
