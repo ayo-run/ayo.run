@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "start": "simple-server .",
-    "dev": "simple-server .",
+    "start": "http-server .",
+    "dev": "http-server .",
     "prepare": "husky"
   },
   "repository": {
@@ -18,7 +18,7 @@
   "author": "Ayo Ayco",
   "license": "MIT",
   "devDependencies": {
-    "husky": "^9.1.7",
-    "simple-server": "^1.1.1"
+    "http-server": "^14.1.1",
+    "husky": "^9.1.7"
   }
 }
